@@ -8,7 +8,7 @@ email:            algalopez85@gmail.com
 version:          0.1
 date:             5-April-2016
 
-Execution:        ./simpleGA_test.py
+Execution:        ./simpleGA_example.py
 '''
 
 
