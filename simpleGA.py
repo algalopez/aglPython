@@ -496,12 +496,12 @@ class Algorithm(object):
 # START AND LOGS
 # ------------------------------------------------------------------------------------------------------------
 
-def starting():
-   logging.basicConfig(level = logging.DEBUG, format="%(asctime)s: %(levelname)-8s > %(message)s", datefmt="%I:%M:%S")
-   if __name__ == '__main__':
-      logging.debug('starting as program')
-   else:
-      logging.debug('starting as library')
+
+logging.basicConfig(level = logging.DEBUG, format="%(asctime)s: %(levelname)-8s > %(message)s", datefmt="%I:%M:%S")
+if __name__ == '__main__':
+   logging.debug('starting as program')
+else:
+   logging.debug('starting as library')
 
 
 
